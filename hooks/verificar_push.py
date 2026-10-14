@@ -4,7 +4,7 @@ import re
 import subprocess
 import sys
 
-#xdxdxdxdxdxdxdxd
+#xdxdxdxdxdxdxdxdxdxsdqas
 def verificar_push(comando):
     # Incluye git push, git.exe push y opciones globales como git -C ruta push.
     if not re.search(r"\bgit(?:\.exe)?\b[^\r\n;&|]*\bpush\b", comando, re.IGNORECASE):
@@ -37,3 +37,5 @@ def verificar_push(comando):
         sys.exit(2)
 
     print("Hook previo al push: pruebas aprobadas; se permite continuar.\n" + salida, file=sys.stderr)
+#baidsanj f  af cds  asdwf csa asdc ipwad pkj ajphdn 
+#aasdwadfsaad
